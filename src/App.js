@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <button data-autotest-id="test-button">First</button>
+        <button data-autotest-id="test-button">Second</button>
+        <button data-autotest-id="test-button">Third</button>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
